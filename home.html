@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Dashboard</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+   
+    
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+</head>
+<style>
+
+.account-item .image {
+border-radius:50%;
+}
+
+.zmdi-search:before {
+    content: '\f1c3';
+    color: #000;
+}
+</style>
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+          
+        </header>
+        <!-- END HEADER MOBILE-->
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/icon/modernize_logo.jpeg" alt="Cool Admin" style="width:65%"/>
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fa fa-home" aria-hidden="true"></i>Dashboard</a>
+                          
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-list" aria-hidden="true"></i>Orders</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               <i class="fa fa-tag" aria-hidden="true"></i>Products</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-folder" aria-hidden="true"></i>Categories</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-users" aria-hidden="true"></i>Customers</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-bar-chart" aria-hidden="true"></i>Reports</a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                               <i class="fa fa-star" aria-hidden="true"></i>Coupons</a>
+                           
+                        </li>
+						 <li>
+                            <a href="#">
+                               <i class="fa fa-comment" aria-hidden="true"></i>Inbox</a>
+                        </li>
+						
+						
+						
+						<li class="menusub">Other Informations</li>
+					
+						
+						
+						
+						
+						
+						
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                               <i class="fa fa-question-circle" aria-hidden="true"></i>Knowledge base</a>
+                           
+                        </li>
+						<li>
+                            <a href="#">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>Product Updates</a>
+                        </li>
+						
+										<li class="menusub">Other Settings</li>
+						  <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fa fa-user" aria-hidden="true"></i>Personal Settings</a>
+                           
+                        </li>
+						<li>
+                            <a href="#">
+                                <i class="fa fa-cog" aria-hidden="true"></i>Global Settings</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+							<button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search..." />
+                                
+                            </form>
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more"></i>
+                                       
+                                      
+                                    </div>
+                                   
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications"></i>
+                                        <span class="quantity">3</span>
+                                      
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">john doe</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">john doe</a>
+                                                    </h5>
+                                                    <span class="email">johndoe@example.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">
+                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="overview-wrap">
+                                    <h4 style="padding-bottom: 2%;">Choose a Plan</h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+						
+						
+						
+						<div class="pricing" style="background:#fff;padding:2%">
+						<div class="row" style="text-align:center">
+                            <div class="col-md-12">
+                                <div >
+                                    <h4 >Pricing Plans</h4>
+									<p>familarize yourself with payment plan below</p>
+									<p>Pick best pricing plan to your needs</p>
+                                  
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="row" style="margin-top:1%">
+                            <div class="col-md-4 navtab">
+                                <div >
+                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+											<li class="nav-item">
+												<a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">Monthly</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link active show" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="true">Annually</a>
+											</li>
+											
+										</ul>
+                                  
+                                </div>
+                            </div>
+                        </div>
+						
+						
+						
+						<div class="row" style="padding:3%" id="pills-home">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong class="card-title">$12/ Month
+                                            
+                                        </strong>
+                                    </div>
+                                    <div class="card-body">
+									<h5>Basic Plan</h5>
+									<p class="blockquote mt-3">Start your Buisness </p>
+									<hr>
+									<div class="prcingopt">
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i> Free Domain</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Google Ads Credit</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Upto 5 users</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Free ssl security</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Upto 100 products</p>
+									<p><i class="fa fa-minus-circle" aria-hidden="true"></i>Chat Inbox</p>
+									<p><i class="fa fa-minus-circle" aria-hidden="true"></i>Unpmited Storage</p>
+									<p><i class="fa fa-minus-circle" aria-hidden="true"></i>No transaction fee</p>
+									</div>
+									<div class="planbtn" >
+                                       <button type="button" class="btn btn-outline-primary" disabled="">Select Plan</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+							 <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong class="card-title">$20/ Month
+                                           <button type="button" class="btn btn-primary" style="font-size:13px">Recommended</button>
+                                        </strong>
+                                    </div>
+                                    <div class="card-body">
+									<h5>Professional</h5>
+									<p class="blockquote mt-3">Start your Buisness </p>
+									<hr>
+                                    <p><i class="fa fa-check-circle" aria-hidden="true"></i>Free Domain</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Google Ads Credit</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Upto 5 users</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Free ssl security</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Upto 100 products</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Chat Inbox</p>
+									<p><i class="fa fa-minus-circle" aria-hidden="true"></i>Unpmited Storage</p>
+									<p><i class="fa fa-minus-circle" aria-hidden="true"></i>No transaction fee</p>
+									<div class="planbtn">
+									<button type="button" class="btn btn-primary" >Primary</button>
+                                    </div>
+                                    </div>
+									
+                                </div>
+                            </div>
+							 <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong class="card-title">$35/ Month
+                                            
+                                        </strong>
+                                    </div>
+                                    <div class="card-body">
+									<h5>Business</h5>
+									<p class="blockquote mt-3">Start your Buisness </p>
+									<hr>
+									<div class="prcingopt">
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Free Domain</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Google Ads Credit</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Upto 5 users</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Free ssl security</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Upto 100 products</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Chat Inbox</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>Unpmited Storage</p>
+									<p><i class="fa fa-check-circle" aria-hidden="true"></i>No transaction fee</p>
+									</div>
+									<div class="planbtn" >
+                                     <button type="button" class="btn btn-outline-primary" disabled="">Select Plan</button>
+									 </div>
+                                    </div>
+                                </div>
+                            </div>
+							
+                        </div>
+						
+						<div class="row" style="text-align:center">
+                            <div class="col-md-12">
+                                <div >
+                                    
+									<p>Cancel or upgrade your plan anytime</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+						
+						<div class="pricing" style="background:#fff;padding:2%" >
+						<div class="row" >
+                            <div class="col-md-12">
+                                <div >
+                                    <h4 style="margin-bottom: 3%">Frequently asked questions</h4>
+									
+                                  
+<button type="button" class="collapsible">Is there any discount for yearly subscriptions? <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Can I change my current Plan?<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">How do I cancel my subscription?<i class="fa fa-angle-down" aria-hidden="true"></i></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+                                </div>
+                            </div>
+                        </div>
+						
+						
+						
+						<div class="row" style="padding:3%">
+                         </div>
+                         </div>
+                     
+                      
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+   
+    </script>
+   
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+   
+    </script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->
